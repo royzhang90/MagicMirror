@@ -61,9 +61,9 @@ var config = {
 			module: "currentweather",
 			position: "top_right",
 			config: {
-				location: "New York",
-				locationID: "",  //ID from http://www.openweathermap.org/help/city_list.txt
-				appid: "YOUR_OPENWEATHER_API_KEY"
+				location: "West Palm Beach",
+				locationID: "4177887",  //ID from http://www.openweathermap.org/help/city_list.txt
+				appid: "4438f95bf6f290160224707a9c826acb"
 			}
 		},
 		{
@@ -71,9 +71,9 @@ var config = {
 			position: "top_right",
 			header: "Weather Forecast",
 			config: {
-				location: "New York",
-				locationID: "5128581",  //ID from http://www.openweathermap.org/help/city_list.txt
-				appid: "YOUR_OPENWEATHER_API_KEY"
+				location: "West Palm Beach",
+				locationID: "4177887",  //ID from http://www.openweathermap.org/help/city_list.txt
+				appid: "4438f95bf6f290160224707a9c826acb"
 			}
 		},
 		{
