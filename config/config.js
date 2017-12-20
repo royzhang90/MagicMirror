@@ -52,11 +52,10 @@ var config = {
 		},
 		{
 			module: "helloworld",
-			position: "lower_third"
+			position: "lower_third",
 			config: {
-			// See 'Configuration options' for more information.
-			text: "Merry Christmas, Lylybell!"
-		}
+				text: "Happy Holidays, Lylybell!"
+			}
 		},
 		{
 			module: "currentweather",
