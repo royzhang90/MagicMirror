@@ -51,8 +51,12 @@ var config = {
 			}
 		},
 		{
-			module: "compliments",
+			module: "helloworld",
 			position: "lower_third"
+			config: {
+			// See 'Configuration options' for more information.
+			text: "Merry Christmas, Lylybell!"
+		}
 		},
 		{
 			module: "currentweather",
