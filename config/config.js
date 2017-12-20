@@ -52,7 +52,7 @@ var config = {
 		},
 		{
 			module: "helloworld",
-			position: "lower_third",
+			position: "top_right",
 			config: {
 				text: "Happy Holidays, Lylybell!"
 			}
@@ -63,7 +63,7 @@ var config = {
 			config: {
 				location: "West Palm Beach",
 				locationID: "4177887",  //ID from http://www.openweathermap.org/help/city_list.txt
-				appid: "4438f95bf6f290160224707a9c826acb"
+				appid: "2b5721e718c8f5d353423fb0f6de7037"
 			}
 		},
 		{
@@ -73,7 +73,7 @@ var config = {
 			config: {
 				location: "West Palm Beach",
 				locationID: "4177887",  //ID from http://www.openweathermap.org/help/city_list.txt
-				appid: "4438f95bf6f290160224707a9c826acb"
+				appid: "2b5721e718c8f5d353423fb0f6de7037"
 			}
 		},
 		{
