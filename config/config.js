@@ -26,56 +26,56 @@ var config = {
 	units: "metric",
 
 	modules: [
-		{
-			module: "alert",
-		},
-		{
-			module: "updatenotification",
-			position: "top_bar"
-		},
+		// {
+		// 	module: "alert",
+		// },
+		// {
+		// 	module: "updatenotification",
+		// 	position: "top_bar"
+		// },
+		// {
+		// 	module: "calendar",
+		// 	header: "US Holidays",
+		// 	position: "top_left",
+		// 	config: {
+		// 		calendars: [
+		// 			{
+		// 				symbol: "calendar-check-o ",
+		// 				url: "webcal://www.calendarlabs.com/templates/ical/US-Holidays.ics"
+		// 			}
+		// 		]
+		// 	}
+		// },
 		{
 			module: "clock",
-			position: "top_left"
-		},
-		{
-			module: "calendar",
-			header: "US Holidays",
-			position: "top_left",
-			config: {
-				calendars: [
-					{
-						symbol: "calendar-check-o ",
-						url: "webcal://www.calendarlabs.com/templates/ical/US-Holidays.ics"
-					}
-				]
-			}
+			position: "top_center"
 		},
 		{
 			module: "helloworld",
-			position: "top_right",
+			position: "top_center",
 			config: {
 				text: "Happy Holidays, Lylybell!"
 			}
 		},
 		{
 			module: "currentweather",
-			position: "top_right",
+			position: "top_center",
 			config: {
 				location: "West Palm Beach",
 				locationID: "4177887",  //ID from http://www.openweathermap.org/help/city_list.txt
 				appid: "2b5721e718c8f5d353423fb0f6de7037"
 			}
 		},
-		{
-			module: "weatherforecast",
-			position: "top_right",
-			header: "Weather Forecast",
-			config: {
-				location: "West Palm Beach",
-				locationID: "4177887",  //ID from http://www.openweathermap.org/help/city_list.txt
-				appid: "2b5721e718c8f5d353423fb0f6de7037"
-			}
-		},
+		// {
+		// 	module: "weatherforecast",
+		// 	position: "top_right",
+		// 	header: "Weather Forecast",
+		// 	config: {
+		// 		location: "West Palm Beach",
+		// 		locationID: "4177887",  //ID from http://www.openweathermap.org/help/city_list.txt
+		// 		appid: "2b5721e718c8f5d353423fb0f6de7037"
+		// 	}
+		// },
 		{
 			module: "newsfeed",
 			position: "bottom_bar",
