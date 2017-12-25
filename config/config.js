@@ -54,7 +54,7 @@ var config = {
 			module: "helloworld",
 			position: "top_center",
 			config: {
-				text: "Happy Holidays, Lylybell!"
+				text: "Good morning, Lylybell!"
 			}
 		},
 		{
@@ -88,6 +88,15 @@ var config = {
 				],
 				showSourceTitle: true,
 				showPublishDate: true
+			}
+		},
+		{
+			module: "DailyXKCD",
+			position: "middle_center",
+			config: {
+							 invertColors: true,
+							 title: true,
+							 altText: false
 			}
 		},
 	]
