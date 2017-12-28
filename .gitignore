@@ -60,7 +60,9 @@ Temporary Items
 !/modules/node_helper
 !/modules/node_helper/**
 
-# Ignore all modules except the default modules.
+# Don't ignore modules.
+!/modules/
+
 # Ignore changes to the custom css files.
 
 # Vim
