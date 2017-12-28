@@ -1,0 +1,3 @@
+[submodule "modules/DailyXKCD"]
+	path = modules/DailyXKCD
+	url = https://github.com/Blastitt/DailyXKCD.git
